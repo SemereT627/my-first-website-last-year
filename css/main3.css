@@ -1,0 +1,266 @@
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	overflow-x:hidden;
+	background-size: cover; 
+}
+html,body
+{
+	padding: 4px;
+	margin: 0;
+	color: #000000
+}
+
+#wrapper
+{
+	width: 1335px;
+	height: 792px; 
+	background: linear-gradient(to right, #7f171f,black);
+	border: 0.1px transparent;
+	opacity: 0.7;
+}
+
+
+#header
+{
+	width: 1335px;
+	height: 160px;
+	background: linear-gradient(to right, #7f171f,black);
+	opacity: 1;	
+}
+
+#header img
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 48%; 
+	border-color : 5px solid #aaaaaa; 
+	margin-top:10px;
+	margin-left: 10px;
+	opacity: 0.5;
+}
+
+#header img:hover
+{
+	opacity: 1.0;
+	transition: 0.5s;
+}
+#header h1
+{
+	position: absolute;
+	padding: 10px;
+	text-align: center;
+	width: 400px;
+	margin: -70px 480px;
+	color: #dddddd;
+	font-size: 40px;
+	border-radius: 40px;
+	border:1px solid skyblue;
+
+}
+
+#header h3
+{
+	text-align: center;
+	margin: 10px 625px;
+	padding:0px; 
+	border: 1px solid skyblue;
+	color: #aaaaaa;
+	width: 100px;
+	border-radius: 30px
+}
+
+
+
+#menubar
+{
+	width:1335px;
+	height:50px;
+	background: linear-gradient(to left, #7f171f, black); 
+
+}
+.menuicons
+{
+	position: absolute;
+	top:172px;
+	left: 240px;
+	width: 100%;
+
+}
+#sidebar
+{
+	position: relative;
+	width: 200px;
+	height: 490px;
+	background:#151719 transparent;
+	left: -224px;
+	transition: .4s;
+}
+#sidebar.active
+{
+	left: -24px;
+}
+
+#sidebar ul li
+{
+
+	color: skyblue;
+	list-style: none;
+	padding: 10px 5px;
+	font-size: 14px;
+	font-family: Arial; 
+}
+
+#sidebar .toggle-btn
+{
+	position: absolute;
+	left:200px;
+	top: 5px;
+	margin-left: 28px
+
+}
+
+
+#sidebar .toggle-btn span
+{
+	
+	
+	display: block;
+	width: 30px;
+	height: 5px;
+	background:#ffff00;
+	margin: 5px 0px;
+}
+#follow
+{
+	
+	padding: 7px 2px;
+	width: 100px;
+	border-color: 3px black;
+	border-radius: 30px;
+	background:linear-gradient(to right,#560a86,#394ba0); 
+}
+#manager li
+{
+	border: 1px solid black;
+	background-color: #fff;
+} 
+
+
+
+.menuicons li
+{
+
+	display: inline-block;
+	font-family: Arial;
+
+}
+.menuicons li a
+{
+
+	display: block;
+	width: 120px;
+	height: 20px;
+	background-color: #001f3f;
+	color: #ffffff;
+	text-align:center;
+	text-decoration: none;
+	font-family: Arial;
+	overflow: auto;
+}
+ 
+
+
+.menuicons li a:hover
+{
+	color: skyblue;
+	border: 1px solid #47ce8e;
+	text-transform: uppercase;
+	transition: 0.4s;
+	border:2px background-size:2px;
+}
+
+
+
+
+
+#leftcolumn
+{
+	width: 200px;
+	height: 450px;
+	background:linear-gradient(to right, #7f171f,black);
+	float:left
+
+}
+
+#rightcolumn
+{
+	width: 200px;
+	height:450px;
+	background: linear-gradient(to left, #aaaaaa,#dddddd);
+	float:right
+}
+#rightcolumn img
+{
+	width: 200px;
+	height: 450px;
+}
+
+
+#contentlist
+{
+	padding: 8px 8px;
+	width: 934px;
+	height: 450px;
+	background: linear-gradient(to left,#555555,#333333);
+	margin-left: 200px;
+	opacity: 1.0;
+	overflow: auto;
+}
+
+#contentlist .homeslide
+{
+	margin-left: 150px; 
+	width: 638px;
+	height: 430px;
+	background:url(images/images_home/brian-tracy-inspirational-quote.jpg);
+	border:.5px solid black;
+	border-radius: 20px;
+	opacity: 1.0;
+	animation: slide 20s infinite;
+
+}
+@keyframes slide
+{
+	25%{
+		background: url(images/images_home/1.jpg);
+	}
+	50%{
+		background: url(images/images_home/2.jpg);
+	}
+	75%{
+		background: url(images/images_home/3.jpg);
+	}
+	100%{
+		background: url(images/images_home/41.jpg);
+	}
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+	width: 1334px;
+	height: 128px;
+	background: linear-gradient(to left,#000000,#7f171f);
+	opacity:.3;
+}
